@@ -6,77 +6,85 @@
 
     <style>
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: 'Segoe UI', sans-serif;
             margin: 0;
-            background-color: #f4f6f8;
-            color: #333;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: #fff;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 700px;
             margin: 50px auto;
-            background: white;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-        }
-
-        header {
+            border-radius: 15px;
             text-align: center;
-            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
-        header img {
-            width: 120px;
-            height: 120px;
+        img {
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
-            object-fit: cover;
+            border: 4px solid white;
             margin-bottom: 15px;
         }
 
         h1 {
-            margin: 10px 0 5px;
+            margin-bottom: 5px;
         }
 
         h2 {
+            margin-top: 0;
             font-weight: normal;
-            color: #666;
-            font-size: 18px;
+            opacity: 0.9;
         }
 
         section {
-            margin-bottom: 30px;
+            margin: 30px 0;
         }
 
         h3 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            color: #222;
+            margin-bottom: 10px;
         }
 
         ul {
-            padding-left: 20px;
+            list-style: none;
+            padding: 0;
         }
 
-        .info p {
-            margin: 5px 0;
-        }
-
-        .links a {
-            display: inline-block;
+        ul li {
+            background: rgba(255,255,255,0.2);
             margin: 5px;
-            padding: 10px 15px;
-            border-radius: 5px;
-            background: #2c3e50;
-            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        /* BOTÕES GRANDES E COLORIDOS */
+        .links a {
+            display: block;
+            margin: 12px 0;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
             text-decoration: none;
+            color: white;
             transition: 0.3s;
         }
 
+        .github { background: #333; }
+        .linkedin { background: #0077b5; }
+        .email { background: #e74c3c; }
+        .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366); }
+
         .links a:hover {
-            background: #1a252f;
+            transform: scale(1.05);
+            opacity: 0.9;
         }
+
     </style>
 </head>
 
@@ -84,46 +92,40 @@
 
 <div class="container">
 
-    <header>
-        <img src="https://s2-ge.glbimg.com/ZUtBKlkhmg_BLm_5__9HorUy7AM=/0x0:600x600/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/L/H/3GP2QIQ6qAIbFfgkMqlQ/balestrin-perfil-instagram.jpg" alt="Foto de perfil">
-        <h1>Guilherme Brasil Pereira</h1>
-        <h2>Estudante de Tecnologia | Cloud Computing & IA</h2>
-    </header>
+    <img src="https://s2-ge.glbimg.com/ZUtBKlkhmg_BLm_5__9HorUy7AM=/0x0:600x600/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/L/H/3GP2QIQ6qAIbFfgkMqlQ/balestrin-perfil-instagram.jpg" alt="Foto">
 
-    <section class="info">
-        <h3>Sobre mim</h3>
+    <h1>Guilherme Brasil Pereira</h1>
+    <h2>🚀 Estudante de Tecnologia | IA & Cloud</h2>
+
+    <section>
         <p>
-            Sou estudante da área de tecnologia, com interesse em desenvolvimento de software,
-            computação em nuvem e inteligência artificial. Busco constantemente evoluir minhas
-            habilidades técnicas e construir projetos práticos.
+            Fala! 👋 Eu sou apaixonado por tecnologia, inteligência artificial e tudo que envolve criar coisas novas.
+            Estou sempre aprendendo e construindo projetos pra evoluir como desenvolvedor.
         </p>
     </section>
 
     <section>
-        <h3>Formação / Área de Interesse</h3>
-        <p>Turma: 2026</p>
-        <p>Disciplina: Cloud Computing</p>
-        <p>Foco em desenvolvimento de sistemas e tecnologias emergentes.</p>
+        <h3>🎯 Foco atual</h3>
+        <p>Cloud Computing • Inteligência Artificial • Desenvolvimento</p>
     </section>
 
     <section>
-        <h3>Habilidades</h3>
+        <h3>💻 Tecnologias</h3>
         <ul>
             <li>Python</li>
             <li>Machine Learning</li>
             <li>HTML & CSS</li>
-            <li>Docker (em aprendizado)</li>
+            <li>Docker</li>
         </ul>
     </section>
 
-    <section>
-        <h3>Contato</h3>
-        <div class="links">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Email</a>
-            <a href="#">Instagram</a>
-        </div>
+    <section class="links">
+        <h3>📬 Me encontre</h3>
+
+        <a href="#" class="github">🐱 GitHub</a>
+        <a href="#" class="linkedin">💼 LinkedIn</a>
+        <a href="#" class="email">📧 Email</a>
+        <a href="#" class="instagram">📸 Instagram</a>
     </section>
 
 </div>
