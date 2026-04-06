@@ -2,35 +2,131 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Meu Portifólio Profissional</title>
+    <title>Guilherme Brasil Pereira | Portfólio</title>
+
     <style>
-        body {font-family: Arial, sans-serif;text-align: center;background-color: #dfe9f3;padding: 50px;}
-        .container {background: rgb(0, 225, 255);padding: 30px;border-radius: 10px;box-shadow: 0 4px 8px rgba(0,0,0,0.1);max-width: 500px;margin: auto;}
-        h1 { color: #000000; }
-        p { color: #000000; }
-        .links a {display: block;margin: 10px 0;padding: 10px;background: #000000;color: rgb(255, 255, 255);text-decoration: none;border-radius: 5px;}
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+        }
+
+        h2 {
+            font-weight: normal;
+            color: #666;
+            font-size: 18px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #222;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background: #2c3e50;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background: #1a252f;
+        }
     </style>
 </head>
+
 <body>
+
 <div class="container">
-    <h1>Em Modo Construção</h1>
-    <h2>Guilherme Brasil Pereira</h2>
-    <p><strong>Turma:</strong> 2026 </p>
-    <p><strong>Disciplina:</strong> Cloud Computing</p>
-    <img src="https://s2-ge.glbimg.com/ZUtBKlkhmg_BLm_5__9HorUy7AM=/0x0:600x600/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/L/H/3GP2QIQ6qAIbFfgkMqlQ/balestrin-perfil-instagram.jpg" alt="Foto de Perfil" style="width: 150px; height: 150px; border-radius: 50%; margin-top: 20px;">
-    <p>Bem-vindo(a) ao meu portifólio. Aqui compartilho minha jornada, meus projetos em desenvolvimento de IAs e estudos em novas tecnologias.</p>
-    <h3>Tecnologias que estou aprendendo:</h3>
-    <ul style="list-style: none; padding: 0;">
-        <li>Python</li>
-        <li>Machine Learning</li>
-        <li>HTML</li>
-    </ul>
-    <div class="links">
-        <a href="#">Meu GitHub</a>
-        <a href="#">Meu Instagram</a>
-        <a href="#">Meu Email</a>
-        <a href="#">Meu LinkedIn</a>
-    </div>
+
+    <header>
+        <img src="https://s2-ge.glbimg.com/ZUtBKlkhmg_BLm_5__9HorUy7AM=/0x0:600x600/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/L/H/3GP2QIQ6qAIbFfgkMqlQ/balestrin-perfil-instagram.jpg" alt="Foto de perfil">
+        <h1>Guilherme Brasil Pereira</h1>
+        <h2>Estudante de Tecnologia | Cloud Computing & IA</h2>
+    </header>
+
+    <section class="info">
+        <h3>Sobre mim</h3>
+        <p>
+            Sou estudante da área de tecnologia, com interesse em desenvolvimento de software,
+            computação em nuvem e inteligência artificial. Busco constantemente evoluir minhas
+            habilidades técnicas e construir projetos práticos.
+        </p>
+    </section>
+
+    <section>
+        <h3>Formação / Área de Interesse</h3>
+        <p>Turma: 2026</p>
+        <p>Disciplina: Cloud Computing</p>
+        <p>Foco em desenvolvimento de sistemas e tecnologias emergentes.</p>
+    </section>
+
+    <section>
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>HTML & CSS</li>
+            <li>Docker (em aprendizado)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Contato</h3>
+        <div class="links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+            <a href="#">Instagram</a>
+        </div>
+    </section>
+
 </div>
+
 </body>
 </html>
