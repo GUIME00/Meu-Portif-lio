@@ -1,10 +1,10 @@
-nome da imagem: guilherme-portifolio;
+nome da imagem: guilherme-portfolio;
 
-comando usado para gerar a imagem: docker build -t guilherme-portifolio;
+comando usado para gerar a imagem: docker build -t guilherme-portfolio .;
 
-comando usado para rodar o container: docker run -d -p 8081:80 guilherme-portifolio;
+comando usado para rodar o container: docker run -d -p 8081:80 guilherme-portfolio;
 
-comando usado para salvar a imagem em .tar: docker save -o guilherme-meu-portifolio.tar guilherme-portifolio;
+comando usado para salvar a imagem em .tar: docker save -o guilherme-meu-portfolio.tar guilherme-portfolio;
 
 ** versão "antiga" do portifólio **
 
