@@ -1,17 +1,14 @@
 nome da imagem: guilherme-portfolio;
-
 comando usado para gerar a imagem: docker build -t guilherme-portfolio .;
-
 comando usado para rodar o container: docker run -d -p 8081:80 guilherme-portfolio;
-
 comando usado para salvar a imagem em .tar: docker save -o guilherme-meu-portfolio.tar guilherme-portfolio;
-
-comandos para salvar o container/imagem no Docker Hub:
+comandos para salvar a imagem no Docker Hub:
 docker login
 docker tag guilherme-portfolio guime00/guilherme-portfolio
-           [nome  da  imagem]          [nome do container]
-docker push guime00/guilherme-portfolio
-
+             [nome da imagem]             [nome da tag]
+enviar imagem ao Docker Hub: docker push guime00/guilherme-portfolio
+baixar imagem do Docker Hub: docker pull guime00/meu-portfolio
+                               [nome do usuário]/[nome da imagem]
 ** versão "antiga" do portfólio **
 
 <!DOCTYPE html>
